@@ -2,6 +2,45 @@ package jpu2016.dogfight.model;
 
 public interface IMobile {
 	
+	public Direction getDirection()
+	{
+		return direction;
+	}
+	
+	public void setDirection(Direction direction)
+	{
+		this.direction = direction;
+	}
+	
+	public Point getPosition()
+	{
+		
+	}
+	
+	public Dimension getDimension()
+	{
+		
+	}
+	
+	public int getWidth()
+	{
+		
+	}
+	
+	public int getHeight()
+	{
+		
+	}
+	
+	public int getSpeed()
+	{
+		
+	}
+	
+	public Image getImage()
+	{
+		
+	}
 	
 	public void move()
 	{
@@ -13,19 +52,23 @@ public interface IMobile {
 		
 	}
 	
-	public isPlayer(int player)
+	public boolean isPlayer(int player)
 	{
 		
 	}
 	
-	public hit()
+	public setDogfightModel(DogfightModel dogfightModel)
 	{
 		
 	}
 	
-	public isWeapon()
+	public boolean hit()
+	{
+		 
+	}
+	
+	public boolean isWeapon()
 	{
 		
 	}
-	
 }
